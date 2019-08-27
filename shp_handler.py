@@ -112,6 +112,7 @@ class ShpHandler(object):
 
     def spatial_join(self, other, sep, path_to_new_ds=None, joined_fields=None, wkt_field_name='geometry_wkt'):
         """
+        Create new shapefile from self shapefile with field from other shapefile (by spatial)
         :param other: joined ShpHandler (ShpHandler)
         :param sep: separator(str)
         :param path_to_new_ds: str if None get from get_default_join_name
