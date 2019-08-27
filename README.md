@@ -2,7 +2,7 @@
 ### Shapefiles handler. Wrapper for python gdal.
 
 ### tools:
-- patial join
+- spatial join
 - zipping
 
 ### how to use:
